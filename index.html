@@ -34,7 +34,7 @@
 
 <body class="poppins-font">
     <header class="md:container md:mx-auto">
-        <nav class="mt-14 mx-8 md:mx-14 lg:mx-24">
+        <nav class="mt-14 mx-8 md:mx-14 lg:mx-32">
             <div class="navbar bg-base-100 ">
                 <div class="flex-1">
                     <div class="dropdown">
@@ -69,7 +69,7 @@
             </div>
         </nav>
 
-        <div class="mx-8 md:mx-16 lg:mx-24">
+        <div class="mx-8 md:mx-16 lg:mx-32">
             <div class="carousel w-full mt-14 bg-bg_primary rounded-md">
                 <div id="slide1"
                     class="carousel-item relative w-full flex-col md:flex-col lg:flex-row justify-center items-center">
@@ -145,11 +145,12 @@
             </div>
         </div>
     </header>
-    <main class=" mt-12 mx-24">
+    <main class="  md:container md:mx-auto">
         <!-- Fetured Bike list -->
-        <section class="mt-20 md:mt-30 lg:mt-40">
+        <section class="mt-14 mx-16 md:mt-20 lg:mt-28 md:mx-28 lg:mx-32">
             <div class="space-y-3">
-                <h3 class="text-[#000] text-3xl md:text-4xl lg:text-5xl font-semibold text-center ">Fetured Bikes In This Year</h3>
+                <h3 class="text-[#000] text-3xl md:text-4xl lg:text-5xl font-semibold text-center ">Fetured Bikes In
+                    This Year</h3>
                 <h4 class="text-bike_primary text-sm font-semibold text-center">Best bike collection</h4>
             </div>
             <div class="flex justify-center items-center">
@@ -157,17 +158,19 @@
                     <path d="M0 0.5H58.5" stroke="#E76F51" />
                 </svg>
             </div>
-            <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 mt-10 place-items-center md:place-items-start">
+            <div
+                class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 mt-10 place-items-center md:place-items-start">
                 <img src="images/others/feature-bike.png" alt="">
-                <img src="images/others/feature-bike.png" alt=""> 
+                <img src="images/others/feature-bike.png" alt="">
                 <img src="images/others/feature-bike.png" alt="" class="md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
-            </div>            
+            </div>
         </section>
 
         <!-- latest news  -->
 
-        <section class="mt-14 md:mt-20 lg:mt-28">
-            <h3 class="text-[#000] text-3xl md:text-4xl lg:text-5xl font-semibold text-center uppercase">latest News</h3>
+        <section class="mt-14 mx-16 md:mt-20 lg:mt-28 md:mx-28 lg:mx-32">
+            <h3 class="text-[#000] text-3xl md:text-4xl lg:text-5xl font-semibold text-center uppercase">latest News
+            </h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="pt-8">
@@ -215,9 +218,10 @@
                 </div>
             </div>
         </section>
-
-        <section class="mt-14 md:mt-20 lg:mt-28">
-            <h3 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center uppercase mb-12">Happy <span class="text-[#E76F51]">Clients
+        <!-- client review -->
+        <section class="mt-14 mx-16 md:mt-20 lg:mt-28 md:mx-28 lg:mx-32">
+            <h3 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center uppercase mb-12">Happy <span
+                    class="text-[#E76F51]">Clients
                     says</span></h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                 <div class="card card-compact bg-base-100 shadow-xl p-8 border-orange-100">
@@ -233,7 +237,8 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                checked="checked" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <p class="text-[#23A6F0] text-sm font-semibold text-center">Regina Miles</p>
@@ -261,7 +266,8 @@
                         <p class="text-[#252B42] text-sm font-semibold text-center">Banker</p>
                     </div>
                 </div>
-                <div class="card card-compact bg-base-100 shadow-xl p-8 md:col-span-2 md:w-1/2  md:mx-auto lg:col-span-1 lg:w-full">
+                <div
+                    class="card card-compact bg-base-100 shadow-xl p-8 md:col-span-2 md:w-1/2  md:mx-auto lg:col-span-1 lg:w-full">
                     <figure>
                         <img class="w-3/4 mb-8" src="images/others/user-3.png" alt="user" />
                     </figure>
@@ -285,9 +291,103 @@
             </div>
         </section>
 
+        <!-- FAQ  -->
+        <section class="mt-14 md:mt-20 lg:mt-28">
+            <h3 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center uppercase mb-12">Frequently Asked
+                <span class="text-[#E76F51]">Questions</span>
+            </h3>
 
+            <div class="hero mt-16">
+                <div class="hero-content flex-col lg:flex-row gap-12">
+                    <img src="images/others/faq.png" class="w-1/2 md:max-w-sm lg:max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <div class="collapse collapse-arrow">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium text-[#383838]">What are the most important
+                                things I should
+                                know about riding a bike?</div>
+                            <div class="collapse-content">
+                                <p class="text-[#7E848C] text-base font-medium">Safety First! Always obey the rules of
+                                    the
+                                    road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving”
+                                    your bike—not just “riding” your bike. This will help you be a more focused and
+                                    legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium text-[#383838]">How can I tell if my helmet
+                                is old and I need a
+                                new one?
+                            </div>
+                            <div class="collapse-content">
+                                <p class="text-[#7E848C] text-base font-medium">Safety First! Always obey the rules of
+                                    the
+                                    road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving”
+                                    your bike—not just “riding” your bike. This will help you be a more focused and
+                                    legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium text-[#383838]">My bike has been in storage
+                                is it safe to ride?
+                            </div>
+                            <div class="collapse-content">
+                                <p class="text-[#7E848C] text-base font-medium">Safety First! Always obey the rules of
+                                    the
+                                    road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving”
+                                    your bike—not just “riding” your bike. This will help you be a more focused and
+                                    legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium text-[#383838]">What rules should I follow
+                                when riding my bike?
+                            </div>
+                            <div class="collapse-content">
+                                <p class="text-[#7E848C] text-base font-medium">Safety First! Always obey the rules of
+                                    the
+                                    road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving”
+                                    your bike—not just “riding” your bike. This will help you be a more focused and
+                                    legally compliant bike rider. </p>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="p-10 bg-[#0B0D17] mt-20">
+        <div class="flex flex-col px-5 lg:flex-row gap-12 lg:justify-between lg:items-center lg:px-24">
+            <div>
+                <div class="flex gap-6 pb-3">
+                    <p class="text-base font-normal text-[#FFF]">Download Now</p>
+                    <p class="text-base font-normal text-[#FFF]">License</p>
+                </div>
+                <div class="grid grid-cols-3 lg:grid-cols-6 gap-4 mb-6">
+                    <p class="text-base font-normal text-[#FFF]">About</p>
+                    <p class="text-base font-normal text-[#FFF]">Features</p>
+                    <p class="text-base font-normal text-[#FFF]">Pricing</p>
+                    <p class="text-base font-normal text-[#FFF]">Careers</p>
+                    <p class="text-base font-normal text-[#FFF]">Help</p>
+                    <p class="text-base font-normal text-[#FFF]">Privacy Policy</p>
+                </div>
+                <p class="text-base font-normal text-[#FFF]">&copy;2020 bike.All rights reserved</p>
+            </div>
+            <div class="grid grid-rows-1 gap-4">
+                <h6 class="footer-title text-[#D9DBE1] text-sm font-normal">Get the App</h6>
+                <a>
+                    <img src="images/others/android.png" class="w-1/2 md:w-5/12 lg:w-3/4" alt="">
+                </a>
+                <a>
+                    <img src="images/others/ios.png" class="w-1/2 md:w-5/12 lg:w-3/4" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
